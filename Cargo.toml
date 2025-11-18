@@ -1,0 +1,9 @@
+[package]
+name = "dilithium-keygen"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ml-dsa = { version = "0.0.4", features = ["rand_core"] }
+rand = "0.8"
+base64 = "0.22"
